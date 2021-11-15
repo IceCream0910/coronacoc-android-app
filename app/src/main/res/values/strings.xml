@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">코로나콕</string>
+    <string name="title_activity_settings">설정</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">알림</string>
+    <string name="sync_header">정보</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">정보</string>
+    <string name="attachment_title"></string>
+    <string name="attachment_summary_on">매일 오전 10시 30분에 신규 확진, 사망자, 위중증 환자 정보를 푸시 알림으로 알려드려요.
+    </string>
+    <string name="attachment_summary_off">매일 오전 10시 30분에 신규 확진, 사망자, 위중증 환자 정보를 푸시 알림으로 알려드려요.</string>
+    <string name="appwidget_text">위젯</string>
+    <string name="add_widget">위젯 추가</string>
+
+</resources>

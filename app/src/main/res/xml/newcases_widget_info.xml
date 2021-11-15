@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/newcases_widget"
+    android:initialLayout="@layout/newcases_widget"
+    android:minWidth="100dp"
+    android:minHeight="80dp"
+    android:previewImage="@drawable/widget_newcases_preview"
+    android:updatePeriodMillis="86400000"
+    android:resizeMode="vertical"
+    android:widgetCategory="home_screen"></appwidget-provider>

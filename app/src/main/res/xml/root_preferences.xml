@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <SwitchPreferenceCompat
+            app:key="notice"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:defaultValue="true"
+            app:title="매일 브리핑" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+
+        <Preference app:title="오픈소스 라이선스" app:key="lisence">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://icecream0910.github.io/coronacoc/license"/>
+        </Preference>
+
+        <Preference
+            android:selectable="false"
+            android:enabled="true"
+            android:key="onesignal_id"
+            android:summary="" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
