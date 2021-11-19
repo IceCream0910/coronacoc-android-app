@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/coronacoc/app/src/main/res/drawable/network_error_background.xml" value="0.3807291666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/coronacoc/app/src/main/res/drawable/rounded_bg.xml" value="0.2484375" />
         <entry key="..\:/Users/user/AndroidStudioProjects/coronacoc/app/src/main/res/drawable/rounded_bg_night.xml" value="0.2484375" />
         <entry key="..\:/Users/user/AndroidStudioProjects/coronacoc/app/src/main/res/layout/activity_main.xml" value="0.22192028985507245" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/coronacoc/app/src/main/res/layout/activity_network_error.xml" value="0.2128623188405797" />
         <entry key="..\:/Users/user/AndroidStudioProjects/coronacoc/app/src/main/res/layout/feed_widget.xml" value="0.536" />
         <entry key="..\:/Users/user/AndroidStudioProjects/coronacoc/app/src/main/res/layout/newcases_widget.xml" value="0.22192028985507245" />
         <entry key="..\:/Users/user/AndroidStudioProjects/coronacoc/app/src/main/res/layout/settings_activity.xml" value="0.22192028985507245" />

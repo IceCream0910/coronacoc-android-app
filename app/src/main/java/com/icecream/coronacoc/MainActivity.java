@@ -110,10 +110,6 @@ public class MainActivity extends AppCompatActivity {
         mWebView.getSettings().setLoadsImagesAutomatically(true);
         mWebView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
         mWebView.setLongClickable(false);
-
-        mWebView.clearCache(true);
-        mWebView.clearHistory();
-
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setUseWideViewPort(true);
         webSettings.setBuiltInZoomControls(false);
@@ -176,8 +172,6 @@ public class MainActivity extends AppCompatActivity {
         picker.setIs24HourView(true);
 
 
-        // 앞서 설정한 값으로 보여주기
-        // 없으면 디폴트 값은 현재시간
         SharedPreferences sharedPreferences = getSharedPreferences("daily alarm", MODE_PRIVATE);
         long millis = sharedPreferences.getLong("nextNotifyTime", Calendar.getInstance().getTimeInMillis());
 
@@ -189,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 이전 설정값으로 TimePicker 초기화
         Date currentTime = nextNotifyTime.getTime();
-        String from = "12:04"; //신규 확진자수 알림 보낼 시간(HH:mm)
+        String from = "10:30"; //신규 확진자수 알림 보낼 시간(HH:mm)
 
         SimpleDateFormat transFormat = new SimpleDateFormat("HH:mm");
 
